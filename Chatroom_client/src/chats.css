@@ -1,0 +1,74 @@
+.chats {
+    animation: fadeIn 0.5s;
+}
+.chatContainer {
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 13px;
+    height: 20vh;
+    padding: 33px;
+    margin-bottom: 23px;
+    color: white;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 34%;
+    padding: 10px;
+    margin: 17px -20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp {
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn {
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

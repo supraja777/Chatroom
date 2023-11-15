@@ -1,0 +1,9 @@
+.videoContainer {
+  margin: 10px;
+}
+
+.remoteVideoContainer {
+  flex-wrap: wrap;
+
+  display: flex;
+}
